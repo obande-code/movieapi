@@ -1,0 +1,19 @@
+.card{
+    width: 400px;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    filter: drop-shadow(0px 34.28px 34.28px rgba(50, 50, 71, 0.08)), drop-shadow(0px 51.42px 68.56px rgba(50, 50, 71, 0.08));
+    .card--image{
+        height: 300px;
+        margin-top: 10px;
+    }
+    .card--content{
+
+        .card--desc{
+            font-size: 0.75;
+            font-weight: normal;
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+}
