@@ -28,7 +28,7 @@ const Search = () => {
             <h3 style={{textAlign:"center", fontFamily:'cursive'}}> Movie Time</h3>
             <form className="form" onSubmit={searchMovies}>
                 <input className="input" type="text" name="query"
-                    placeholder="i.e. Jurassic Park"
+                    placeholder="Coming to America"
                     value={query} onChange={(e) => setQuery(e.target.value)}
                     />
                 <button className="button" type="submit" style={{color:'white', fontSize: '24px', fontWeight:'normal'}}>Search</button>
